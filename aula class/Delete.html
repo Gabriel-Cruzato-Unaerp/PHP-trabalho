@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Trabalho</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <form action="deleteReceive.php" method="post">
+
+        <div class="form-group">
+            <label for="Nome do arquivo">Nome do arquivo para ser deletado:</label>
+            <input type="number" class="form-control" id="arquivoNome" name='arquivoCodigo' required>
+            <small id="codigohelp" class="form-text text-muted">Use apenas números.</small>
+        </div>
+        <button type="submit" value="Submit" name="button" class="btn btn-primary">Send</button>
+    </form>
+</body>
+
+</html>
